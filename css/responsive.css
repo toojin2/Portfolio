@@ -215,10 +215,7 @@
 }
 @media screen and (max-width: 490px) {
   /* common */
-  .index {
-    display: block;
-    padding-top: 5rem 0;
-  }
+
   .index span {
     font-size: 5rem;
   }
