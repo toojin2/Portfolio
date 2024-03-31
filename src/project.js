@@ -243,8 +243,6 @@ let tl = gsap.timeline({
   },
 });
 tl.to(".index1 span", {
-  height: "auto",
-  width: "auto",
   y: 0,
   stagger: 0.1,
   duration: 0.5,
