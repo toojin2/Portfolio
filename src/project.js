@@ -12,6 +12,7 @@ document.querySelectorAll(".split, .index").forEach((desc) => {
 gsap.set(".index1 span, .index2 span, .index3 span", {
   height: "auto",
   width: "auto",
+  y: -50,
 });
 gsap.set(".preloader_logo span", {
   opacity: 0,
@@ -242,22 +243,11 @@ let tl = gsap.timeline({
   },
 });
 tl.to(".index1 span", {
-  width: "auto",
-  height: "auto",
-  y: -50,
-  stagger: 0.2,
-  duration: 0.5,
-});
-tl.to(".index1 span", {
-  width: "auto",
-  height: "auto",
   y: 0,
   stagger: 0.2,
   duration: 0.5,
 });
 tl.to(".index1 span", {
-  width: "auto",
-  height: "auto",
   rotateZ: 1080,
   stagger: 0.2,
   duration: 1,
@@ -272,11 +262,6 @@ let tl2 = gsap.timeline({
     scrub: 2,
     //markers: true,
   },
-});
-tl2.to(".index2 span", {
-  y: -50,
-  stagger: 0.2,
-  duration: 0.5,
 });
 tl2.to(".index2 span", {
   y: 0,
@@ -299,11 +284,7 @@ let tl3 = gsap.timeline({
     //markers: true,
   },
 });
-tl3.to(".index3 span", {
-  y: -50,
-  stagger: 0.2,
-  duration: 0.5,
-});
+
 tl3.to(".index3 span", {
   y: 0,
   stagger: 0.2,

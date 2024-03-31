@@ -61,6 +61,9 @@
   .contact_bottom {
     padding-bottom: 1.5rem;
   }
+  .mouse-cursor {
+    display: none;
+  }
 }
 @media screen and (max-width: 1080px) {
   /* common */
@@ -100,9 +103,6 @@
     padding: 20% 10% 50% 10%;
     margin-top: 0;
     max-width: none;
-  }
-  .mouse-cursor {
-    display: none;
   }
 }
 @media screen and (max-width: 1024px) {
