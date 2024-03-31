@@ -17,7 +17,7 @@ section {
   display: inline-block;
   font-family: var(--font-primary-variant);
   font-size: 13vw;
-  color: transparent;
+  color: var(--color-primary-variant);
   font-weight: 500;
   -webkit-text-stroke: 4px var(--color-text);
   white-space: nowrap;
