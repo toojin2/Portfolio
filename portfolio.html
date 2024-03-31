@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- content="IE=edge" 는 IE브라우저에서, 각 버전 중 가장 최신 표준모드를 선택하는 문서모드 IE6 부터 IE11까지 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO(검색 엔진 최적화) -->
+    <title>Jinyi Lee&#39;s portfolio</title>
+    <meta
+      name="description"
+      content="
+    Jinyi Lee’s Portfolio"
+    />
+    <meta name="author" content="Jinyi Lee" />
+    <!-- favicon 아이폰 6이상 브라우저, 안드로이드 크롬브라우저에 대응하고 나머지 환경은 기본 파비콘 16,32사이즈 파일로 대응, macOS 사파리탭 대응, 윈도우10 지원 -->
+    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/favicon/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/favicon/apple-touch-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/favicon/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/favicon/apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/favicon/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/favicon/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/favicon/apple-touch-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/favicon/apple-touch-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/favicon/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicon/manifest.json" />
+    <link
+      rel="mask-icon"
+      href="/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- OG(Open Graph Data) 사이트를 배포했을때 보이게 하는 이미지, 사이트 설명등 -->
+    <meta property="og:title" content="웹퍼블리셔 이진이 포트폴리오" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://wlsdl1025.github.io/portfolio1" />
+    <meta
+      property="og:image"
+      content="https://wlsdl1025.github.io/portfolio1/images/og.webp"
+    />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chewy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome-->
+    <script
+      src="https://kit.fontawesome.com/5cad1f58b8.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS-->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/grobal.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/animation.css" />
+    <!-- gsap -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <!-- js -->
+    <script type="module" src="src/main.js " defer></script>
+    <script type="module" src="src/project.js " defer></script>
+  </head>
+  <body>
+    <!-- load page -->
+    <div class="preloader">
+      <div class="preloader_inr">
+        <div class="preloader_logo">
+          <span>L</span>
+          <span>E</span>
+          <span>E</span>
+          <span> </span>
+          <span>J</span>
+          <span>I</span>
+          <span>N</span>
+          <span> </span>
+          <p class="reversal split">LEE</p>
+        </div>
+      </div>
+    </div>
+    <!-- header -->
+    <header class="header">
+      <div class="header_wrapper">
+        <h1 class="my_logo">LEE JIN <span>LEE</span></h1>
+        <div class="header_btn">
+          <button id="gnbToggle"></button>
+        </div>
+      </div>
+      <!-- gnb -->
+      <aside class="gnb">
+        <div class="gnb_inr">
+          <div class="gnb_inr_wrapper">
+            <div class="order-menu">
+              <h4 class="year"></h4>
+              <p class="copyright">LEE JIN YI All Rights Reserved</p>
+            </div>
+            <nav class="gnb_nav_box">
+              <ul>
+                <li class="gnb_box_tit">
+                  <a href="#home">Home</a>
+                  <span class="lineActive"></span>
+                </li>
+                <li class="gnb_box_tit">
+                  <a href="#about">About</a>
+                  <span class="lineActive"></span>
+                </li>
+                <li class="gnb_box_tit">
+                  <a href="#project">Project</a>
+                  <span class="lineActive"></span>
+                </li>
+                <li class="gnb_box_tit">
+                  <a href="#contact">Contact</a>
+                  <span class="lineActive"></span>
+                </li>
+              </ul>
+            </nav>
+            <div class="gnb_tell">
+              <p>+82 10 7373 1820</p>
+              <p>wlsdl5986@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <span class="gnb_backDrop"></span>
+      </aside>
+    </header>
+    <!-- main -->
+    <main>
+      <!-- Home -->
+      <section id="home" class="home">
+        <div class="home_container">
+          <div class="home_top">
+            <div class="home_top_inr">
+              <img
+                class="home_top_p home_inr_img"
+                src="./images/p.png"
+                alt="p"
+              />
+              <img
+                class="home_top_o home_inr_img"
+                src="./images/o.png"
+                alt="o"
+              />
+              <img
+                class="home_top_r home_inr_img"
+                src="./images/r.png"
+                alt="r"
+              />
+              <img
+                class="home_top_t home_inr_img"
+                src="./images/t.png"
+                alt="t"
+              />
+            </div>
+          </div>
+          <div class="home_middle">
+            <div class="home_middle_inr">
+              <h2>web publisher</h2>
+              <p>LEE JIN YI</p>
+            </div>
+          </div>
+          <div class="home_bottom">
+            <div class="home_bottom_inr">
+              <img
+                class="home_bottom_f home_inr_img"
+                src="./images/f.png"
+                alt="f"
+              />
+              <img
+                class="home_bottom_small home_inr_img"
+                src="./images/small o.png"
+                alt="o"
+              />
+              <img
+                class="home_bottom_l home_inr_img"
+                src="./images/L.png"
+                alt="l"
+              />
+              <img
+                class="home_bottom_i home_inr_img"
+                src="./images/i.png"
+                alt="i"
+              />
+              <img
+                class="home_bottom_big home_inr_img"
+                src="./images/big o.png"
+                alt="o"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- project -->
+      <section id="project">
+        <div class="marquee">
+          <div class="personality_box_top">
+            <span>positive</span>
+            <span>변화에 대한 높은 적응력</span>
+            <span>사교적인</span>
+            <span>책임감이 강한</span>
+            <span>creative</span>
+            <span>긍정적인</span>
+            <span>communication</span>
+            <span>sociable</span>
+            <span>책임감이 강한</span>
+            <span>창의적인</span>
+            <span>positive</span>
+            <span>변화에 대한 높은 적응력</span>
+            <span>사교적인</span>
+            <span>책임감이 강한</span>
+            <span>creative</span>
+          </div>
+        </div>
+        <div class="marquee">
+          <div class="personality_box_bottom">
+            <span>positive</span>
+            <span>변화에 대한 높은 적응력</span>
+            <span>사교적인</span>
+            <span>책임감이 강한</span>
+            <span>creative</span>
+            <span>긍정적인</span>
+            <span>communication</span>
+            <span>sociable</span>
+            <span>책임감이 강한</span>
+            <span>창의적인</span>
+            <span>positive</span>
+            <span>변화에 대한 높은 적응력</span>
+            <span>사교적인</span>
+            <span>책임감이 강한</span>
+            <span>creative</span>
+          </div>
+        </div>
+        <div class="project_inr section">
+          <h2 class="index index1">Project</h2>
+          <div class="project_wrap">
+            <ul class="project_sticky">
+              <li class="project1 project_box">
+                <div class="project_inr_box project_inr_box1">
+                  <div class="text_box">
+                    <span>01</span>
+                    <strong class="title">Arcteryx </strong>
+                    <p class="description">
+                      Arcteryx 사이트의 디자인에 동적인 효과가 부족하여
+                      사용자들의 흥미를 유발하지 못하는 부분을 인지하였습니다.
+                      이에 동적인 효과와 동영상을 활용하여 더욱 흥미로운 반응형
+                      웹사이트로 제작했습니다.
+                    </p>
+                    <p class="hash">
+                      <span>responsive</span>
+                      <span>HTML</span>
+                      <span>CSS</span>
+                      <span>Vanilla JS</span>
+                      <span>jQuery</span>
+                      <span>sementic web</span>
+                      <span>sub page</span>
+                    </p>
+                  </div>
+                  <figure class="img_box">
+                    <a
+                      class="project_link"
+                      href="https://wlsdl1025.github.io/ARCTERYX/"
+                      target="_blank"
+                    >
+                      <img
+                        class="img_box_mookup1 img_box_mookup"
+                        src="./images/ARCTERYX-macbook.png"
+                        alt=""
+                      />
+                    </a>
+                  </figure>
+                </div>
+              </li>
+              <li class="project2 project_box">
+                <div class="project_inr_box project_inr_box2">
+                  <div class="text_box">
+                    <span>02</span>
+                    <strong class="title">Greekday </strong>
+                    <p class="description">
+                      기존 사이트의 마크업이 시멘틱 태그를 활용하지 않아서 검색
+                      엔진의 효율성이 저하되는 문제점이 있었습니다. 이에 시멘틱
+                      태그를 적절히 활용하여 검색 엔진 최적화(SEO)를
+                      향상시켰습니다. 또한, 여성을 타켓층으로 설정하여 메인
+                      컬러를 그라디언트로 표현하여 현대적인 느낌을 부여했습니다.
+                      마지막으로, 사용자 경험을 고려하여 바닐라 자바스크립트를
+                      활용하여 수동 슬라이드를 구현한 반응형 웹사이트입니다.
+                    </p>
+                    <p class="hash">
+                      <span>responsive</span>
+                      <span>HTML</span>
+                      <span>CSS</span>
+                      <span>Vanilla JS</span>
+                      <span>jQuery</span>
+                      <span>sementic web</span>
+                    </p>
+                    <button class="project_btn"></button>
+                  </div>
+                  <figure class="img_box">
+                    <a
+                      class="project_link"
+                      href="https://wlsdl1025.github.io/greekday/"
+                      target="_blank"
+                    >
+                      <img
+                        class="img_box_mookup"
+                        src="./images/greekday_pc.png"
+                        alt=""
+                      />
+                    </a>
+                  </figure>
+                </div>
+              </li>
+              <li class="project3 project_box">
+                <div class="project_inr_box project_inr_box3">
+                  <div class="text_box">
+                    <span>03</span>
+                    <strong class="title">Deepnoid</strong>
+                    <p class="description">
+                      기존의 단조로운 레이아웃을 세련되게 개선했으며, 기업의
+                      모든 사용자가 쉽게 접근할 수 있도록 생동감 넘치고 신뢰할
+                      수 있는 컬러와 이미지를 사용했습니다. 또한 문의하기와 top
+                      버튼을 추가하여 사용자들의 편의성을 고려했으며, Fullpage와
+                      swiper를 활용하여 반응형 웹사이트를 제작했습니다.
+                    </p>
+                    <p class="hash">
+                      <span>Fullpage</span>
+                      <span>swiper</span>
+                      <span>responsive</span>
+                      <span>HTML</span>
+                      <span>CSS</span>
+                      <span>Vanilla JS</span>
+                      <span>sementic web</span>
+                    </p>
+                    <button class="project_btn"></button>
+                  </div>
+                  <figure class="img_box">
+                    <a
+                      class="project_link"
+                      href="https://wlsdl1025.github.io/deepnoid/"
+                      target="_blank"
+                    >
+                      <img
+                        class="img_box_mookup"
+                        src="./images/deepnoid_pc.png"
+                        alt=""
+                      />
+                    </a>
+                  </figure>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about">
+        <div class="about section">
+          <h2 class="index index2 about-me">About-me</h2>
+          <div class="about_inr">
+            <div class="photo_wrap">
+              <img class="star-deco" src="../images/star-deco.png" alt="" />
+              <img class="profile_img" src="../images/profile.JPG" alt="" />
+            </div>
+            <div class="profile_wrap">
+              <img class="deco deco1" src="./images/deco.png" alt="" />
+              <img class="deco deco2" src="./images/deco.png" alt="" />
+              <div class="profile_box">
+                <strong class="profile_name">이진이 LEE JIN YI </strong>
+                <p class="profile_txt">
+                  <span style="font-weight: 600">
+                    실패로 남는 경험은 없다. 오직 배우는 경험만 남는다"</span
+                  >는 신념을 가지고 성장을 멈추지 않습니다. <br />
+                  퍼블리셔 역할에 최선을 다하면서, React.js와 Vue.js와 같은
+                  프론트엔드 프레임워크에 대한 프로그래밍 능력을 점차 키워가며,
+                  미래를 열어가는 전문가로 성장하겠습니다. <br />
+                  웹표준과 웹접근성을 바탕으로 사용자들이 직관적이고 편리하게
+                  웹과 앱을 활용할 수 있도록 노력하고 있습니다.
+                  <span style="font-weight: 600"
+                    >웹표준과 웹접근성에 대한 기본</span
+                  >을 유지하며,
+                  <span style="font-weight: 600">심미적인 부분과의 조화</span>를
+                  이루어 프로젝트를 진행하겠습니다.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills">
+          <h4 class="i-can">I can</h4>
+          <div class="tag-cloud">
+            <span style="--i: 0; top: 0" class="tag-cloud_item">HTML</span>
+            <span style="--i: 1; top: 50px" class="tag-cloud_item">CSS</span>
+            <span style="--i: 2; top: 140px" class="tag-cloud_item"
+              >Javascript</span
+            >
+            <span style="--i: 3; top: 90px" class="tag-cloud_item">jQuery</span>
+            <span style="--i: 4; top: 180px" class="tag-cloud_item"
+              >Photoshop</span
+            >
+            <span style="--i: 5; top: 20px" class="tag-cloud_item"
+              >Illustrator</span
+            >
+            <span style="--i: 6; top: 70px" class="tag-cloud_item">HTML</span>
+            <span style="--i: 7; top: 140px" class="tag-cloud_item">CSS</span>
+            <span style="--i: 8; top: 60px" class="tag-cloud_item"
+              >Javascript</span
+            >
+            <span style="--i: 9; top: 100px" class="tag-cloud_item"
+              >jQuery</span
+            >
+            <span style="--i: 10; top: 30px" class="tag-cloud_item"
+              >Photoshop
+            </span>
+            <span style="--i: 11; top: 80px" class="tag-cloud_item"
+              >Illustrator
+            </span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer!! -->
+    <footer id="contact">
+      <div class="contact_inr section">
+        <h2 class="index index3">Contact</h2>
+        <p class="work-text">Let's work together!</p>
+        <ul>
+          <li class="contact_list">
+            <span class="hidden">연락처</span>
+            <a href="tel:+8210-7373-1820" class="link-phone"
+              ><i class="icon fa-solid fa-phone-volume"></i
+            ></a>
+          </li>
+          <li class="contact_list">
+            <span class="hidden">메일</span>
+            <a href="mailto:wlsdl5986@gmail.com"
+              ><i class="icon fa-solid fa-envelope"></i
+            ></a>
+          </li>
+          <li class="contact_list">
+            <span class="hidden">깃허브</span>
+            <a href="https://github.com/wlsdl1025" target="_blank">
+              <i class="icon fa-brands fa-github"></i
+            ></a>
+          </li>
+        </ul>
+        <p class="footer_txt">
+          I appreciate you taking the time to look at my portfolio.
+        </p>
+      </div>
+      <div class="contact_img_wrap">
+        <div class="contact_img1">
+          <img class="contact_img_txt" src="./images/t.png" alt="" />
+          <img class="contact_img_txt" src="./images/h.png" alt="" />
+          <img class="contact_img_txt" src="./images/a.png" alt="" />
+          <img class="contact_img_txt" src="./images/n.png" alt="" />
+          <img class="contact_img_txt" src="./images/k.png" alt="" />
+        </div>
+        <div class="contact_img2">
+          <img class="contact_img_txt" src="./images/y.png" alt="" />
+          <img class="contact_img_txt" src="./images/last o.png" alt="" />
+          <img class="contact_img_txt" src="./images/u.png" alt="" />
+        </div>
+      </div>
+      <div class="contact_bottom section">
+        <span class="year"></span>
+        <span class="time"></span>
+        <!-- Arrow up -->
+        <aside>
+          <a href="#home" title="back to top" class="arrow_up"
+            ><img src="./images/icons8-up-arrow-50.png" alt=""
+          /></a>
+        </aside>
+      </div>
+    </footer>
+
+    <!-- cursor -->
+    <div class="mouse-cursor">
+      <div class="cursor"></div>
+      <span class="text">VIEW PROJECT</span>
+    </div>
+  </body>
+</html>

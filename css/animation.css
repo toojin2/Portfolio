@@ -1,0 +1,43 @@
+/* animation */
+@keyframes rotate-axis {
+  from {
+    transform: rotateZ(353deg) perspective(800px) rotateY(0deg);
+  }
+  to {
+    transform: rotateZ(353deg) perspective(800px) rotateY(360deg);
+  }
+}
+@keyframes arrow-up {
+  0% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  30% {
+    transform: translateY(-150%);
+    opacity: 0;
+  }
+  60% {
+    transform: translateY(0%);
+    opacity: 0;
+  }
+  60% {
+    transform: translateY(150%);
+    opacity: 0;
+  }
+}
+@keyframes marquee-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+@keyframes marquee-right {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
