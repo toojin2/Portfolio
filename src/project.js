@@ -221,7 +221,7 @@ gsap.to(".contact_img_txt", {
     trigger: "#contact",
     start: "0% center",
     end: "bottom bottom",
-    scrub: 2,
+    scrub: 1,
     //markers: true,
   },
   scale: 1,
@@ -233,7 +233,7 @@ let tl = gsap.timeline({
     trigger: ".index1",
     start: "top 50%",
     end: "bottom 100%",
-    scrub: 3,
+    scrub: 2,
     //markers: true,
   },
 });
@@ -242,14 +242,14 @@ tl.to(".index1 span", {
   height: "auto",
   y: -50,
   stagger: 0.2,
-  duration: 1,
+  duration: 0.5,
 });
 tl.to(".index1 span", {
   width: "auto",
   height: "auto",
   y: 0,
   stagger: 0.2,
-  duration: 1,
+  duration: 0.5,
 });
 tl.to(".index1 span", {
   width: "auto",
@@ -265,7 +265,7 @@ let tl2 = gsap.timeline({
     trigger: ".index2",
     start: "top 50%",
     end: "bottom 100%",
-    scrub: 3,
+    scrub: 2,
     //markers: true,
   },
 });
@@ -277,7 +277,7 @@ tl2.to(".index2 span", {
 tl2.to(".index2 span", {
   y: 0,
   stagger: 0.2,
-  duration: 1,
+  duration: 0.5,
 });
 tl2.to(".index2 span", {
   rotateZ: 1080,
@@ -291,7 +291,7 @@ let tl3 = gsap.timeline({
     trigger: ".index3 span",
     start: "top 50%",
     end: "100% 100%",
-    scrub: 3,
+    scrub: 2,
     //markers: true,
   },
 });
@@ -310,6 +310,5 @@ tl3.to(".index3 span", {
   rotateZ: 1080,
   stagger: 0.2,
   duration: 1,
-  delay: 1.5,
 });
 //contact index
