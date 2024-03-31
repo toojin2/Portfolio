@@ -57,7 +57,11 @@ document.addEventListener("DOMContentLoaded", function () {
       this.classList.add("active");
     });
   });
-
+  projectBoxes.forEach(function (box) {
+    box.addEventListener("touchend", function () {
+      this.classList.remove("active");
+    });
+  });
   // 마우스 이벤트
   projectBoxes.forEach(function (box) {
     box.addEventListener("mouseenter", function () {

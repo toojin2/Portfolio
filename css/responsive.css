@@ -150,11 +150,11 @@
   }
   .home_top_inr {
     left: -50%;
-    top: -20%;
+    top: -25%;
   }
   .home_bottom_inr {
     right: -50%;
-    bottom: -20%;
+    bottom: -25%;
   }
   /* project */
   .title {
@@ -190,12 +190,12 @@
     transform: scale(0.4);
   }
   .home_top_inr {
-    left: -75%;
-    top: -25%;
+    left: -72%;
+    top: -30%;
   }
   .home_bottom_inr {
-    right: -75%;
-    bottom: -25%;
+    right: -72%;
+    bottom: -30%;
   }
 }
 @media screen and (max-width: 540px) {
@@ -207,7 +207,7 @@
     right: -88%;
   }
 }
-@media screen and (max-width: 465px) {
+@media screen and (max-width: 490px) {
   /* common */
   .index span {
     font-size: 5rem;
@@ -218,27 +218,35 @@
     transform: scale(0.35);
   }
   .home_top_inr {
+    top: -33%;
     left: -100%;
   }
   .home_bottom_inr {
-    right: -109%;
+    right: -100%;
+    bottom: -33%;
   }
   .home_middle_inr h2 {
     font-size: 20px;
     white-space: nowrap;
   }
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 450px) {
+  /* common */
+  .index span {
+    font-size: 6rem;
+  }
   /* home */
   .home_top_inr,
   .home_bottom_inr {
     transform: scale(0.3);
   }
   .home_top_inr {
+    top: -35%;
     left: -115%;
   }
   .home_bottom_inr {
     right: -119%;
+    bottom: -35%;
   }
   /* about */
   .star-deco {
@@ -264,7 +272,7 @@
     right: -130%;
   }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 380px) {
   /* home */
   .home_top_inr {
     left: -135%;
