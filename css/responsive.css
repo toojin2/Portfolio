@@ -269,7 +269,8 @@
   }
 }
 @media screen and (max-width: 410px) {
-  .index span {
+  .index1 span,
+  .index2 span {
     font-size: 78px;
     letter-spacing: 15px;
   }
