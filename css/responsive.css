@@ -231,10 +231,6 @@
   }
 }
 @media screen and (max-width: 450px) {
-  /* common */
-  .index span {
-    font-size: 6rem;
-  }
   /* home */
   .home_top_inr,
   .home_bottom_inr {
@@ -261,6 +257,9 @@
   }
   .profile_box {
     padding: 55% 10% 50% 10%;
+  }
+  .footer_txt {
+    padding: 2rem 0;
   }
 }
 @media screen and (max-width: 410px) {
