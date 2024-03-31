@@ -21,7 +21,7 @@ section {
   font-weight: 500;
   -webkit-text-stroke: 4px var(--color-text);
   white-space: nowrap;
-  letter-spacing: 10px;
+  margin-right: 10px;
   overflow: visible;
 }
 /* load page */
