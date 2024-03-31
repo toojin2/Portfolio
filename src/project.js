@@ -232,7 +232,7 @@ let tl = gsap.timeline({
   scrollTrigger: {
     trigger: ".index1 span",
     start: "-50% 50%",
-    end: "100% 100%",
+    end: "150% 100%",
     scrub: 3,
     pin: true,
     //markers: true,

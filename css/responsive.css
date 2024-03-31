@@ -101,6 +101,9 @@
     margin-top: 0;
     max-width: none;
   }
+  .mouse-cursor {
+    display: none;
+  }
 }
 @media screen and (max-width: 1024px) {
   /* home */
@@ -184,9 +187,6 @@
   .footer_txt {
     padding: 5rem 0;
     font-size: 1.3rem;
-  }
-  .mouse-cursor {
-    display: none;
   }
 }
 @media screen and (max-width: 650px) {
