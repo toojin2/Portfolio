@@ -230,12 +230,11 @@ gsap.to(".contact_img_txt", {
 
 let tl = gsap.timeline({
   scrollTrigger: {
-    trigger: ".index1 span",
-    start: "-50% 50%",
-    end: "150% 100%",
+    trigger: ".index1",
+    start: "top 50%",
+    end: "500px 100%",
     scrub: 3,
-    pin: true,
-    //markers: true,
+    markers: true,
   },
 });
 tl.to(".index1 span", {
@@ -258,11 +257,10 @@ tl.to(".index1 span", {
 
 let tl2 = gsap.timeline({
   scrollTrigger: {
-    trigger: ".index2 span",
+    trigger: ".index2",
     start: "top 50%",
     end: "300px 100%",
     scrub: 3,
-    pin: true,
     //markers: true,
   },
 });
@@ -289,7 +287,6 @@ let tl3 = gsap.timeline({
     start: "top 50%",
     end: "100% 100%",
     scrub: 3,
-    pin: true,
     //markers: true,
   },
 });
