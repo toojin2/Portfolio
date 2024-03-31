@@ -340,7 +340,7 @@ main {
 }
 .profile_wrap {
   flex: 1 0 50%;
-  background: url(./images/smile.png) no-repeat;
+  background: url("../images/smile.png") no-repeat;
   background-position: bottom;
   position: relative;
 }
@@ -380,7 +380,7 @@ main {
   padding-top: 10rem;
   overflow: hidden;
   text-align: center;
-  background: url(./images/earth.png) no-repeat;
+  background: url("../images/earth.png") no-repeat;
   background-position: bottom;
 }
 .i-can {
