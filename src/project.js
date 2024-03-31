@@ -232,7 +232,7 @@ let tl = gsap.timeline({
   scrollTrigger: {
     trigger: ".index1",
     start: "top 50%",
-    end: "500px 100%",
+    end: "bottom 100%",
     scrub: 3,
     //markers: true,
   },
@@ -264,7 +264,7 @@ let tl2 = gsap.timeline({
   scrollTrigger: {
     trigger: ".index2",
     start: "top 50%",
-    end: "300px 100%",
+    end: "bottom 100%",
     scrub: 3,
     //markers: true,
   },
