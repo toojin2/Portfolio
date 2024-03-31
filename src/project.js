@@ -9,6 +9,10 @@ document.querySelectorAll(".split, .index").forEach((desc) => {
 }); //.preloader_logo, index span 만들기
 
 //초기 세팅
+gsap.set(".index1 span, .index2 span, .index3 span", {
+  height: "auto",
+  width: "auto",
+});
 gsap.set(".preloader_logo span", {
   opacity: 0,
   scale: 0,
