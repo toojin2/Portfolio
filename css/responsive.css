@@ -182,6 +182,9 @@
     padding: 5rem 0;
     font-size: 1.3rem;
   }
+  .mouse-cursor {
+    display: none;
+  }
 }
 @media screen and (max-width: 650px) {
   /* home */
