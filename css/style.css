@@ -1,7 +1,6 @@
 /* common */
 section {
   width: 100%;
-  height: 100vh;
   background: var(--color-primary-variant);
 }
 .section {
@@ -214,6 +213,8 @@ section {
 main {
 }
 #home {
+  height: 100vh;
+  min-height: 100vh;
   background: var(--color-primary-variant);
 }
 .home_container {
@@ -502,6 +503,7 @@ main {
 }
 /* cursor */
 .mouse-cursor {
+  overflow: hidden;
   display: flex;
 }
 .cursor {
