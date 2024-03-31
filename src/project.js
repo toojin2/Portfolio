@@ -253,11 +253,7 @@ tl.to(".index1 span", {
   stagger: 0.2,
   duration: 1,
 });
-tl.to(".index1 span", {
-  color: "rgba(242, 242, 242,1)",
-  stagger: 0.2,
-  duration: 1,
-});
+
 //project index
 
 let tl2 = gsap.timeline({
@@ -285,11 +281,7 @@ tl2.to(".index2 span", {
   stagger: 0.2,
   duration: 1,
 });
-tl2.to(".index2 span", {
-  color: "rgba(242, 242, 242, 1)",
-  stagger: 0.2,
-  duration: 1,
-}); //about index
+//about index
 
 let tl3 = gsap.timeline({
   scrollTrigger: {
@@ -318,8 +310,4 @@ tl3.to(".index3 span", {
   duration: 1,
   delay: 1.5,
 });
-tl3.to(".index3 span", {
-  color: "rgba(242, 242, 242,1)",
-  stagger: 0.2,
-  duration: 1,
-}); //contact index
+//contact index
