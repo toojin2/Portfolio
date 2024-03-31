@@ -11,13 +11,14 @@ section {
   margin: auto;
 }
 .index {
-  padding-top: 5rem;
+  display: block;
+  padding-top: 5rem 0;
 }
 .index span {
   display: inline-block;
   font-family: var(--font-primary-variant);
   font-size: 13vw;
-  color: var(--color-primary-variant);
+  color: transparent;
   font-weight: 500;
   -webkit-text-stroke: 4px var(--color-text);
   white-space: nowrap;
