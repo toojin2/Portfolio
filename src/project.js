@@ -234,25 +234,30 @@ let tl = gsap.timeline({
     start: "top 50%",
     end: "500px 100%",
     scrub: 3,
-    markers: true,
+    //markers: true,
   },
 });
 tl.to(".index1 span", {
+  width: "auto",
+  height: "auto",
   y: -50,
   stagger: 0.2,
   duration: 1,
 });
 tl.to(".index1 span", {
+  width: "auto",
+  height: "auto",
   y: 0,
   stagger: 0.2,
   duration: 1,
 });
 tl.to(".index1 span", {
+  width: "auto",
+  height: "auto",
   rotateZ: 1080,
   stagger: 0.2,
   duration: 1,
 });
-
 //project index
 
 let tl2 = gsap.timeline({
