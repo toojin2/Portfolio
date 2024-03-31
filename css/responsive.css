@@ -269,6 +269,10 @@
   }
 }
 @media screen and (max-width: 410px) {
+  .index span {
+    font-size: 78px;
+    letter-spacing: 15px;
+  }
   /* home */
   .home_top_inr {
     left: -125%;
