@@ -224,13 +224,13 @@ gsap.to(".profile_img", {
 gsap.to(".contact_img_txt", {
   scrollTrigger: {
     trigger: "#contact",
-    start: "0% center",
+    start: "100px center",
     end: "bottom bottom",
-    scrub: 1,
-    //markers: true,
+    scrub: 2,
+    markers: true,
   },
   scale: 1,
-  duration: 1.3,
+  duration: 1.0,
 }); //thank you
 
 let tl = gsap.timeline({
