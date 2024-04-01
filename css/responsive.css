@@ -285,9 +285,9 @@
 @media screen and (max-width: 380px) {
   /* home */
   .home_top_inr {
-    left: -135%;
+    left: -132%;
   }
   .home_bottom_inr {
-    right: -140%;
+    right: -137%;
   }
 }
