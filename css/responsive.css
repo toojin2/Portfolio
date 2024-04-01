@@ -146,10 +146,14 @@
   .header_wrapper {
     padding: 1.5rem 1rem;
   }
+
   .index span {
     -webkit-text-stroke: 3px var(--color-text);
   }
   /* home */
+  .home_middle {
+    padding: 0 1rem;
+  }
   .home_top_inr,
   .home_bottom_inr {
     transform: scale(0.55);
