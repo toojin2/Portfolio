@@ -164,7 +164,6 @@
 
   .index span {
     -webkit-text-stroke: 3px var(--color-text);
-    margin-left: 0px;
     font-size: 22vw;
   }
   .index2 {
