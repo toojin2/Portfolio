@@ -419,16 +419,14 @@ main {
   height: auto;
 }
 .project_wrap {
+  height: auto;
   padding: 4rem 0;
 }
 .project_sticky {
-  position: relative;
-  border-radius: 2rem;
-  /* background: var(--color-accent); */
+  height: auto;
 }
 .project_box {
-  position: sticky;
-  top: 0;
+  position: -webkit-sticky;
   padding: 7rem;
   background: var(--color-accent);
   border-radius: 2rem;
