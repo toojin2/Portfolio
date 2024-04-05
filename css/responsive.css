@@ -8,10 +8,9 @@
     display: flex;
   }
   .index span {
-    width: 7rem;
+    width: 8rem;
     white-space: nowrap;
     text-align: center;
-    margin-left: 0.7rem;
     padding-right: 0px;
     font-size: 13rem;
   }
@@ -119,7 +118,8 @@
 }
 @media screen and (max-width: 1024px) {
   .index span {
-    font-size: 11rem;
+    font-size: 11.5rem;
+    margin-left: -1rem;
   }
   /* home */
   .home_top_inr,
@@ -165,13 +165,13 @@
   .index span {
     -webkit-text-stroke: 3px var(--color-text);
     font-size: 22vw;
+    margin-left: -1.4rem;
   }
   .index2 {
     justify-content: center;
   }
   .index2 span {
-    width: 6rem;
-    margin-left: 0;
+    width: 5.5rem;
   }
   /* home */
   .home_middle {
