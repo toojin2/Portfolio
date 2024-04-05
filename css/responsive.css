@@ -149,6 +149,7 @@
 
   .index span {
     -webkit-text-stroke: 3px var(--color-text);
+    margin-left: -2.1rem;
   }
   /* home */
   .home_middle {

@@ -11,11 +11,11 @@ section {
   margin: auto;
 }
 .index {
+  display: flex;
   padding-top: 5rem;
 }
 .index span {
-  display: inline-block;
-  width: auto;
+  width: 7rem;
   height: auto;
   font-family: var(--font-primary-variant);
   font-size: 13vw;
@@ -23,8 +23,11 @@ section {
   font-weight: 500;
   -webkit-text-stroke: 4px var(--color-text);
   white-space: nowrap;
-  padding-right: 10px;
-  overflow: visible;
+  text-align: center;
+  margin-left: -0.7rem;
+}
+.index3 {
+  justify-content: center;
 }
 /* load page */
 .preloader {

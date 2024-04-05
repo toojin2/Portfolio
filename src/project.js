@@ -10,8 +10,6 @@ document.querySelectorAll(".split, .index").forEach((desc) => {
 
 //초기 세팅
 gsap.set(".index1 span, .index2 span, .index3 span", {
-  height: "auto",
-  width: "auto",
   y: -50,
 });
 gsap.set(".preloader_logo span", {
@@ -248,8 +246,6 @@ tl.to(".index1 span", {
   duration: 0.5,
 });
 tl.to(".index1 span", {
-  height: "auto",
-  width: "auto",
   rotateZ: 1080,
   stagger: 0.1,
   duration: 1,
