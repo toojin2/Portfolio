@@ -219,6 +219,7 @@
   .arrow_up {
     width: 4rem;
     height: 4rem;
+    border-radius: 1rem;
   }
   .arrow_up img {
     width: 40px;
