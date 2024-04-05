@@ -171,7 +171,11 @@
     justify-content: center;
   }
   .index2 span {
-    width: 5.5rem;
+    width: 14%;
+    margin-left: 0rem;
+  }
+  .index3 span {
+    margin-left: 0rem;
   }
   /* home */
   .home_middle {
