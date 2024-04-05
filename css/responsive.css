@@ -169,6 +169,10 @@
   .index2 {
     justify-content: center;
   }
+  .index2 span {
+    width: 6rem;
+    margin-left: 0;
+  }
   /* home */
   .home_middle {
     padding: 0 1rem;
@@ -210,6 +214,14 @@
   .footer_txt {
     padding: 5rem 0;
     font-size: 1.3rem;
+  }
+  /* arrow */
+  .arrow_up {
+    width: 4rem;
+    height: 4rem;
+  }
+  .arrow_up img {
+    width: 40px;
   }
 }
 @media screen and (max-width: 650px) {
