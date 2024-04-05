@@ -225,7 +225,7 @@ gsap.to(".contact_img_txt", {
     start: "100px center",
     end: "bottom bottom",
     scrub: 2,
-    markers: true,
+    //markers: true,
   },
   scale: 1,
   duration: 1.0,
