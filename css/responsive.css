@@ -183,6 +183,7 @@
   }
   .home_top_inr,
   .home_bottom_inr {
+    height: 100%;
     transform: scale(0.55);
   }
   .home_top_inr {
