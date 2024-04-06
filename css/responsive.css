@@ -191,6 +191,7 @@
     top: -25%;
   }
   .home_bottom_inr {
+    align-items: end;
     right: -50%;
     bottom: -25%;
   }
