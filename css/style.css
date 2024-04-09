@@ -217,7 +217,7 @@ main {
 }
 #home {
   height: 100vh;
-  min-height: 100vh;
+  min-height: 700px;
   background: var(--color-primary-variant);
 }
 .home_container {
