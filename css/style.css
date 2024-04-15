@@ -242,15 +242,21 @@ main {
 /* middle */
 .home_middle {
   width: 100%;
-  padding: 0 4rem;
+  position: relative;
 }
 .home_middle_inr {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  padding: 1rem 0rem;
+  padding: 1rem 4rem;
+  z-index: 5;
+}
+.home_middle_inr_box {
+  padding: 1rem 0;
   border-bottom: 2px solid var(--color-primary);
   display: flex;
   align-items: end;
-  z-index: 5;
 }
 .home_middle_inr h2 {
   font-size: 2rem;

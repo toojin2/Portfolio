@@ -25,7 +25,7 @@
   .home_top_inr {
     left: -13%;
   }
-  .home_middle {
+  .home_middle_inr {
     padding: 0 2rem;
   }
   .home_bottom_inr {
@@ -178,7 +178,7 @@
     margin-left: 0rem;
   }
   /* home */
-  .home_middle {
+  .home_middle_inr {
     padding: 0 1rem;
   }
   .home_top_inr,
