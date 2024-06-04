@@ -408,7 +408,7 @@ main {
 .tag-cloud_item {
   position: absolute;
   transform-origin: center;
-  transform: rotateY(calc(var(--i) * 23deg)) translateZ(360px);
+  transform: rotateY(calc(var(--i) * 22.5deg)) translateZ(360px);
   padding: 1rem 2rem;
   border-radius: 20px;
 }
