@@ -681,7 +681,7 @@ main {
 }
 /* 각 파트(배너, 지류, 인스타) 공통 스타일 */
 .design-part {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 
 .part-info {
@@ -712,7 +712,7 @@ main {
 
 /* 1. 배너: 가로로 긴 형태 (2열) */
 .banner-grid {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
 /* 2. 지류: 일반적인 3열 */
@@ -727,7 +727,7 @@ main {
 
 /* 이미지 박스 효과 */
 .img-box {
-  background: #222;
+  background: #fff;
   overflow: hidden;
   border-radius: 4px;
   position: relative;
@@ -735,18 +735,21 @@ main {
 }
 
 /* 인스타는 강제로 1:1 비율 유지 */
-.insta-grid .img-box {
-  aspect-ratio: 1 / 1;
-}
+/* .insta-grid .img-box {
+  aspect-ratio: 1 / 1.5;
+} */
 
-.img-box img {
+.design-part .img-box img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
   transition: transform 0.5s ease;
 }
 
 .img-box:hover img {
   transform: scale(1.05); /* 마우스 올리면 살짝 확대 */
+}
+#part-hun img {
+  width: 100%;
 }
