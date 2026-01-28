@@ -294,4 +294,26 @@ tl3.to(".index3 span", {
   stagger: 0.2,
   duration: 1,
 });
+
+let tl4 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".index4 span",
+    start: "top 50%",
+    end: "100% 100%",
+    scrub: 2,
+    //markers: true,
+  },
+});
+
+tl3.to(".index4 span", {
+  y: 0,
+  stagger: 0.2,
+  duration: 1,
+  delay: 0.5,
+});
+tl3.to(".index4 span", {
+  rotateZ: 1080,
+  stagger: 0.2,
+  duration: 1,
+});
 //contact index

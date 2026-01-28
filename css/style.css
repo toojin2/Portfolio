@@ -681,7 +681,8 @@ main {
 }
 /* 각 파트(배너, 지류, 인스타) 공통 스타일 */
 .design-part {
-  padding-bottom: 120px;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .part-info {
