@@ -679,3 +679,74 @@ main {
 .arrow_up:focus > img {
   animation: arrow-up 0.4s 1 running cubic-bezier(0.165, 0.84, 0.44, 1);
 }
+/* 각 파트(배너, 지류, 인스타) 공통 스타일 */
+.design-part {
+  margin-bottom: 120px;
+}
+
+.part-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+}
+
+.part-info .num {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ff3e3e; /* 강조 포인트 컬러 */
+  margin-right: 15px;
+}
+
+.part-info h2 {
+  font-size: 1.8rem;
+  color: #eee;
+}
+
+/* 이미지 그리드 설정 */
+.image-grid {
+  display: grid;
+  gap: 20px;
+}
+
+/* 1. 배너: 가로로 긴 형태 (2열) */
+.banner-grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* 2. 지류: 일반적인 3열 */
+.print-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* 3. 인스타: 정사각형 위주 4열 */
+.insta-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* 이미지 박스 효과 */
+.img-box {
+  background: #222;
+  overflow: hidden;
+  border-radius: 4px;
+  position: relative;
+  aspect-ratio: auto; /* 이미지 비율에 맞춤 */
+}
+
+/* 인스타는 강제로 1:1 비율 유지 */
+.insta-grid .img-box {
+  aspect-ratio: 1 / 1;
+}
+
+.img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.img-box:hover img {
+  transform: scale(1.05); /* 마우스 올리면 살짝 확대 */
+}
