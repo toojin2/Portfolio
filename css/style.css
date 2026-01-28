@@ -682,7 +682,6 @@ main {
 /* 각 파트(배너, 지류, 인스타) 공통 스타일 */
 .design-part {
   padding-top: 4rem;
-  padding-bottom: 4rem;
 }
 
 .part-info {
@@ -699,7 +698,9 @@ main {
   color: #ff3e3e; /* 강조 포인트 컬러 */
   margin-right: 15px;
 }
-
+.hun-part {
+  padding-bottom: 4rem;
+}
 .part-info h2 {
   font-size: 1.8rem;
   color: #eee;
