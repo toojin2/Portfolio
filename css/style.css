@@ -344,7 +344,8 @@ main {
   height: 425px;
   transform: translateY(20%);
   opacity: 0;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   z-index: 98;
 }
@@ -679,8 +680,7 @@ main {
 .arrow_up:focus > img {
   animation: arrow-up 0.4s 1 running cubic-bezier(0.165, 0.84, 0.44, 1);
 }
-/* 각 파트(배너, 지류, 인스타) 공통 스타일 */
-.design-part {
+각 파트(배너, 지류, 인스타) 공통 스타일 .design-part {
   padding-top: 4rem;
 }
 

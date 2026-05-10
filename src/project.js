@@ -21,7 +21,7 @@ gsap.set(
   ".preloader_logo span:nth-child(4), .preloader_logo span:nth-child(8)",
   {
     marginRight: "0.5rem",
-  }
+  },
 );
 gsap.set(".preloader", {
   height: "100%",
@@ -100,17 +100,17 @@ setTimeout(() => {
       stagger: 0.1,
       ease: Power3.ease,
     },
-    "ee +=0.5"
+    "ee +=0.5",
   );
   tl.to(
     ".home_bottom_inr .home_inr_img",
     { opacity: 1, scale: 1, duration: 0.5, stagger: 0.1, ease: Power3.ease },
-    "ee +=1"
+    "ee +=1",
   );
   tl.to(
     ".home_middle_inr",
     { opacity: 1, x: "0%", duration: 0.5, ease: Circ.easOut },
-    "ee +=1.5"
+    "ee +=1.5",
   );
   tl.to(".home_middle_inr h2", { opacity: 1, y: "0%", duration: 1 }, "ee +=2");
   tl.to(".home_middle_inr p", { opacity: 1, y: "0%", duration: 1 }, "ee +=2.5");
@@ -129,7 +129,7 @@ gsap.to(".project_inr_box1", {
   },
   scaleX: 1.0,
   scaleY: 1.0,
-  scaleZ: 1.3,
+  scale: 1.3,
   duration: 0.1,
   ease: "power1.inOut",
   startAt: { scale: 0.9 }, // 초기 너비 설정
@@ -145,7 +145,7 @@ gsap.to(".project_inr_box2", {
   },
   scaleX: 1.0,
   scaleY: 1.0,
-  scaleZ: 1.3,
+  scale: 1.3,
   duration: 0.1,
   ease: "power1.inOut",
   startAt: { scale: 0.9 }, // 초기 너비 설정
@@ -160,7 +160,7 @@ gsap.to(".project_inr_box3", {
   },
   scaleX: 1.0,
   scaleY: 1.0,
-  scaleZ: 1.3,
+  scale: 1.3,
   duration: 0.1,
   ease: "power1.inOut",
   startAt: { scale: 0.9 }, // 초기 너비 설정
